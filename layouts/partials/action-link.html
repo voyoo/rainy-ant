@@ -1,0 +1,5 @@
+{{ $action := .action }}
+{{ $class_names := .class_names }}
+<a href="{{ $action.url | relURL }}"
+   {{ if $action.new_window }}target="_blank" rel="noopener"{{ end }}
+   class="{{ $class_names }}">{{ $action.label }}</a>

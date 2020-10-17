@@ -1,0 +1,6 @@
+{{ $actions := .actions }}
+{{ range $action := $actions }}
+<a href="{{ $action.url | relURL }}"
+  {{ if $action.new_window }}target="_blank" rel="noopener"{{ end }}
+  class="button{{ if ne $action.primary true }} secondary{{ end }}">{{ $action.label }}</a>
+{{ end }}
