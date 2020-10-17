@@ -2,25 +2,6 @@ title: Stackbit Az
 baseURL: /
 params:
   palette: blue
-  header:
-    type: header
-    title: Azimuth
-    logo_img: images/logo.png
-    has_nav: true
-    nav_links:
-      - type: action
-        label: Home
-        url: /
-      - type: action
-        label: Features
-        url: /features
-      - type: action
-        label: Style Guide
-        url: /style-guide
-      - type: action
-        label: Sign Up
-        url: /signup
-        primary: true
   footer:
     type: footer
     logo_img: images/logo_alt.png
