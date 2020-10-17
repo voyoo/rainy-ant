@@ -20,15 +20,34 @@ params:
       - type: action
         label: Style Guide
         url: /style-guide
-      - type: action
-        label: Sign Up
-        url: /signup
-        primary: true
   footer:
-    type: footer
-    logo_img: images/logo_alt.png
+    subscribe_title: Subscribe
+    subscribe_content: Stay up to date with our latest developments.
+    has_subscribe: true
+    social_title: Community
+    social_links:
+      - type: action
+        label: Twitter
+        url: https://twitter.com/
+        new_window: true
+      - type: action
+        label: Instagram
+        url: https://www.instagram.com/
+        new_window: true
+      - type: action
+        label: LinkedIn
+        url: https://www.linkedin.com/
+        new_window: true
     tagline: SaaS theme by Stackbit
-    has_nav: true
+    logo_img: images/logo_alt.png
+    has_social: true
+    content: "&copy; Stackbit. All rights reserved."
+    links:
+      - type: action
+        label: Made with Stackbit
+        url: https://www.stackbit.com
+        new_window: true
+    type: footer
     nav_title: Company
     nav_links:
       - type: action
@@ -43,30 +62,7 @@ params:
       - type: action
         label: Contact
         url: /contact
-    has_social: true
-    social_title: Community
-    social_links:
-      - type: action
-        label: Twitter
-        url: 'https://twitter.com/'
-        new_window: true
-      - type: action
-        label: Instagram
-        url: 'https://www.instagram.com/'
-        new_window: true
-      - type: action
-        label: LinkedIn
-        url: 'https://www.linkedin.com/'
-        new_window: true
-    has_subscribe: true
-    subscribe_title: Subscribe
-    subscribe_content: Stay up to date with our latest developments.
-    content: '&copy; Stackbit. All rights reserved.'
-    links:
-      - type: action
-        label: Made with Stackbit
-        url: 'https://www.stackbit.com'
-        new_window: true
+    has_nav: true
 taxonomies:
   stub: stub
 disableKinds:
