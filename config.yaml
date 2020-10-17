@@ -1,7 +1,5 @@
 title: Stackbit Az
 baseURL: /
-params:
-  palette: blue
 taxonomies:
   stub: stub
 disableKinds:
