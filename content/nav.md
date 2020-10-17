@@ -1,5 +1,5 @@
 ---
-title: Blockchain Navi
+title: Blockchain Navigation
 sections: []
 layout: landing
 ---
