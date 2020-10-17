@@ -17,7 +17,7 @@ params:
       - type: action
         label: Pricing
         url: /pricing
-        primary: true
+        primary: false
       - type: action
         label: Style Guide
         url: /style-guide
