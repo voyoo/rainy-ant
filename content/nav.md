@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Blockchain Navi
 sections: []
 layout: landing
 ---
