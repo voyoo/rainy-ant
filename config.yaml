@@ -15,10 +15,6 @@ params:
         label: Features
         url: /features
       - type: action
-        label: Pricing
-        url: /pricing
-        primary: false
-      - type: action
         label: Style Guide
         url: /style-guide
       - type: action
